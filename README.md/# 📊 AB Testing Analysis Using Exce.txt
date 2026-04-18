@@ -1,0 +1,55 @@
+# 📊 A/B Testing Analysis Using Excel
+
+## 🎯 Project Objective
+This project aims to analyze and compare the conversion rates between two versions of a webpage (A and B) using A/B testing methodology.
+
+---
+
+## 🧪 Experiment Design
+
+- **Group A (Control):** Original webpage
+- **Group B (Variant):** Modified webpage with improved call-to-action
+
+Each user either converted (1) or did not convert (0).
+
+---
+
+## 📊 Dataset
+- Group A: 100 users
+- Group B: 100 users
+
+---
+
+## 📐 Statistical Method
+We used a **Z-test for proportions** to determine if the difference between conversion rates is statistically significant.
+
+Steps:
+1. Calculate conversion rates
+2. Compute pooled proportion
+3. Calculate standard error
+4. Compute Z-score
+5. Derive P-value
+
+---
+
+## 📈 Results
+
+- Conversion Rate (A): 11%
+- Conversion Rate (B): 15%
+- P-value: 0.40
+
+---
+
+## 📌 Conclusion
+The difference between A and B is **not statistically significant**, so we cannot conclude that version B performs better.
+
+---
+
+## 🛠 Tools Used
+- Microsoft Excel
+- Statistical A/B Testing (Z-test for proportions)
+
+---
+
+## 📚 Learning Outcome
+Understanding how to perform A/B testing and interpret statistical significance in real-world scenarios.
